@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Times New Roman";
+}
+body {
+	background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+	text-align: center
+}
+/*-------------------------navigation----------------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background: linear-gradient(to right, #ff3722, #ff6000);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 50px;
+	padding: 5px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff !important; 
+}
+
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	border : none !important;
+}
+.nav-link
+{
+	color: #555 !important;
+	font-weight: 600;
+	font-size: 17px;
+}
+.nav-link ul li ul li
+{
+	display:none;
+}
+.nav-link ul li:hover ul li
+{
+	display:block;
+}
+
+#banner
+{
+	background-image:  
+	color: #fff;
+	padding-top: 5%;
+	box-sizing: border-box;
+}
+#banner a
+{
+	color: #fff;
+	text-decoration: none;
+}
+/*--------------------------footer--------------------*/
+#footer
+{
+	background: linear-gradient(to right, #ff3722, #ff6000);
+	color: #fff;
+}
+.footer-img
+{
+	width: 100%;
+}
+.footer-box
+{
+	padding: 20px;
+}
+.footer-box img
+{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.footer-box .fa
+{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background: linear-gradient(to right, #ff4742, #ff5860, #ff5870);
+}
+.footer-box .form-control
+{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 25px;
+	max-width: 250px;
+}
+.footer-box .btn-primary
+{
+	box-shadow: none !important;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background: linear-gradient(to right, #ff4742, #ff5860, #ff5870);
+}
+.footer-box .btn-primary:hover
+{
+	background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+hr
+{
+	background-color: #fff; 
+	font-size: 13px;
+}
+.copyright
+{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
